@@ -1,0 +1,51 @@
+.count{
+    margin: auto;
+    width: 65%;
+    border: 3px solid rgb(144, 16, 170);
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgb(243, 224, 245);
+    color: rgb(144, 16, 170);
+    text-align: center;
+}
+#btnCount{
+    background-color:rgb(243, 224, 245);
+    border: 3px solid rgb(144, 16, 170);
+    border-radius: 15px;
+    color: rgb(144, 16, 170);;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+#btnCount:hover{
+        background-color: rgb(144, 16, 170);
+        color:white;
+      }
+      #restart{
+        margin: auto;
+        width: 50%;
+        /*border: 3px solid rgb(8, 56, 160);*/
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgb(235, 186, 231);
+        text-align: center;
+        display: none;
+    }
+    .btnEvenOdd{
+    
+        background-color: rgb(243, 224, 245);
+        border: 3px solid rgb(144, 16, 170);
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        border-radius: 15px;
+    }
+    .btnEvenOdd:hover {
+        background-color:rgb(144, 16, 170);
+        color: white;
+      }

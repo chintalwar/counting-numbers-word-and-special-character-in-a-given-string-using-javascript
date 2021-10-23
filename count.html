@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link css file-->
+    <link rel="stylesheet" href="css/count.css">
+    <title>Count the word and special character</title>
+</head>
+<body>
+    <!--Creating div section-->
+    <div class = "count">
+
+        <!--Declaring header tag-->
+        <h1> Programe to count special character digits ,word from a paragraph</h1>
+
+        <!--Creating hr line-->
+        <hr class ="hr">
+        
+        <!--Creating textarea for entering the text-->
+        <textarea id="txtCount" rows="10" cols="80"  placeholder = "Enter Yourtext Here..."> </textarea><br><br>
+
+        <!--Creating Paragarph to show the result-->
+        <a onclick = "frequencyPopup()" href= "#"><p id = "alph"></p></a>
+        <a onclick = "frequencyPopup()" href="#"><p id = "digit"></p></a>
+        <a onclick = "frequencyPopup()" href="#"><p id = "specialChar"></p></a>
+        <a onclick ="section()"href="#" ><p id = "enter"></p></a>
+        <a onclick ="section()"href="#"><p id = "words"></p></a>
+        <a onclick ="section()"href="#"><p id = "sentence"></p></a>
+
+         <!--Div section for the  restart as well as display table-->   
+         <div id="restart">
+            
+         <!--Restart button--> 
+         <button class = "btnEvenOdd" onclick="location.reload()" >RESTART</button>
+         <p>Click "RESTART" button to start again</p>
+         </div>
+
+
+        <!--Creating count button for counting the charater digit and special character-->
+        <input type ="submit"  value ="Count" id ="btnCount" onclick="btnCount()">
+    </div>
+      
+    <!--Javascript link file-->
+    <script type = "text/javascript" src="js/count.js"></script>
+</body>
+</html>
